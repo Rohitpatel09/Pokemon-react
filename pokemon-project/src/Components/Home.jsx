@@ -1,28 +1,28 @@
 import React from 'react'
-
+import styles from "./Home.module.css"
 const Home = ({HandleFetchBtn}) => {
   return (
-    <div className="containerr">
-        <div className="navbarr">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/9/98/International_Pok%C3%A9mon_logo.svg" alt="Pokémon Logo" className="imgs"/>
-            <div className="navLinkss">
+    <div className={styles.containerr}>
+        <div className={styles.navbarr}>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/9/98/International_Pok%C3%A9mon_logo.svg" alt="Pokémon Logo" className={styles.imgs}/>
+            <div className={styles.navLinkss}>
                 
             </div>
             <div className="searchsigninn">
-                <input type="text" className="searchboxx" placeholder="Search"/>
-                <button className="signinbtnn">Login In</button>
+                <input type="text" className={styles.searchboxx} placeholder="Search"/>
+                <button className={styles.signinbtnn}>Login In</button>
             </div>
         </div>
 
-        <div className="maincontentt">
-            <div className="textcontentt">
-                <h1 className="heading">Step into the World of <br/> POKÉMON Detective Pikachu</h1>
-                <div className="emailsignupp">
+        <div className={styles.maincontentt}>
+            <div className={styles.textcontentt}>
+                <h1 className={styles.heading}>Step into the World of <br/> POKÉMON Detective Pikachu</h1>
+                <div className={styles.emailsignupp}>
                   
-                    <button className="esbtn" onClick={()=>HandleFetchBtn("Click")}>Catch Pokémon</button>
+                    <button className={styles.esbtn} onClick={()=>HandleFetchBtn("Click")}>Catch Pokémon</button>
                 </div>
             </div>
-            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png" alt="Pikachu" className="pikachuimgg"/>
+            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png" alt="Pikachu" className={styles.pikachuimgg}/>
         </div>
     </div>
   )

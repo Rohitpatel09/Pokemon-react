@@ -6,7 +6,7 @@ const Header = () => {
     <section className='container'>
       <header>
         <h1>Lets Catch Pokémon  </h1>
-        
+       
        
       </header>
     </section>
@@ -14,3 +14,4 @@ const Header = () => {
 }
 
 export default Header;
+

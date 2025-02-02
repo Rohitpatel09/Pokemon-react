@@ -1,0 +1,114 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #cfead6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+} */
+
+.containerr {
+    background-color: #e7f5e9;
+    width: 100%;
+    max-width: 1200px;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    position: relative;
+    padding: 20px 40px;
+  }
+  
+  .navbarr {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .imgs {
+    width: 120px;
+  }
+  
+  .navLinkss {
+    display: flex;
+    gap: 20px;
+  }
+  
+  /* .navLinkss a {
+    text-decoration: none;
+    color: #3b7f56;
+    font-weight: bold;
+  } */
+  
+  .searchsigninn {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+  }
+  
+  .searchboxx {
+    padding: 5px 10px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  .signinbtnn {
+    padding: 8px 15px;
+    background-color: #3b7f56;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  .maincontentt {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .heading {
+    font-size: 48px;
+    color: rgb(255, 202, 202);
+    margin-bottom: 20px;
+  }
+  
+  
+  .emailsignupp {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  /* .emailsignupp input {
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    width: 250px;
+  } */
+  
+  .esbtn {
+    padding: 10px 20px;
+    background-color: #3b7f56;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    position: relative;
+    left: 230px;
+    top: 10px;
+    font-size: 18px;
+    font-weight: 700;
+  }
+  
+  .pikachuimgg {
+    width: 300px;
+  }
+  
+  
+  

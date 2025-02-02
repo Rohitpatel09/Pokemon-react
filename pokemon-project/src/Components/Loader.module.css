@@ -1,4 +1,4 @@
-/* .loader {
+.loader {
     position: relative;
     width: 200px;
     height: 200px;
@@ -22,4 +22,4 @@
     0% , 25% {transform: rotate(0deg)}
     50% , 75% {transform: rotate(180deg)}
     100% {transform: rotate(360deg)}
-  } */
+  }
